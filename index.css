@@ -1,0 +1,63 @@
+
+* {
+    border: 2px solid red;
+    color: white;
+}
+.main-container{
+    width: fit-content;
+    height: fit-content; 
+    border: 1px solid black;
+    background-color: black;
+}
+
+.title {
+    text-align: center;
+}
+
+.winner {
+    text-align: center;
+}
+
+.paddle1 {
+    background-color: white;
+    height: 40px;
+    width: 5px;
+}
+
+.paddle2 {
+    background-color: white;
+    height: 40px;
+    width: 5px;
+}
+
+.half-line {
+    background-color: black;
+    border-left: 3px dotted white;
+    border-right: 3px dotted white;
+    border-style: dashed;
+    height: 250px;
+    width: 0px;
+}
+
+.board-container {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.score1 {
+    
+    padding-left: 50px;
+    padding-right: 70px;
+} 
+
+.score2 {
+    padding-left: 50px;
+    padding-right: 70px;
+}
